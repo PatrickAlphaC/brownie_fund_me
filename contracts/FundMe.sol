@@ -15,7 +15,7 @@ contract FundMe {
     
     // if you're following along with the freecodecamp video
     // Please see https://github.com/PatrickAlphaC/fund_me
-    // to get the starting code, it'll be slightly different than this!
+    // to get the starting solidity contract code, it'll be slightly different than this!
     constructor(address _priceFeed) public {
         priceFeed = AggregatorV3Interface(_priceFeed);
         owner = msg.sender;
