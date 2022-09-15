@@ -18,6 +18,5 @@ networks:
     verify: False
   ganache-local:
     verify: False
-    dog: cat
 wallets:
   from_key: ${PRIVATE_KEY}
